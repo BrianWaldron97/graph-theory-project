@@ -2,7 +2,6 @@
 # G00350150
 # Code adapted from Lab exercises
 
-
 # Thompson's  Construction
 class State():
     """A state and its' arrows in Thompson's contruction."""

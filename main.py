@@ -19,11 +19,15 @@ directoryPath = os.path.dirname(os.path.realpath(__file__))
 # User enters the name of the txt file they wish to find an expression
 txtFile = input("Please enter the full name of the text file: ")
 txtFileName = os.path.isfile(txtFile)
-print(txtFileName)
 
+# if the text file is valid
 if txtFileName:
+    # User enters expression
     expressionSearch = input("Please enter the expression: ")
+
+    # Expression Search function
     def expression_search(txtFileName, expressionSearch):
+        # Initializing
         lineNumber = 0
         results = []
 
@@ -35,13 +39,18 @@ if txtFileName:
                     results.append((lineNumber, line.rstrip())) # rstrip() removes trailing characters
         return results
     expressionsFound = expression_search(txtFileName, expressionSearch)
+    # Prints the amount of expressions found in the text file
     print("Number of expressions found: ", len(expressionsFound))
-    for elem in expressionsFound:
-        print("Found on line: ", elem[0], " Expression: ", elem[1])
+    for num in expressionsFound:
+        # for each num found in expressionFound, print the line number and full line
+        print("Found on line: ", num[0], " Expression Line: ", num[1])
+# else the text file given is invalid
 else:
     print("Sorry, " + txtFile + " does not exist in the directory given.")
     exit()
 
+# Testing 
+print("\n========== Testing ==========\n")
 
 if __name__ == "__main__":
     tests = [
@@ -61,4 +70,3 @@ if __name__ == "__main__":
             match = nfa.match(s)
             print(f"Match '{s}': {match}")
         print()
-

@@ -34,8 +34,10 @@ if txtFileName:
         # "with" keyword used as txt file is properly closed after
         with open(txtFile, "r") as f:
             for line in f:
+                # Reading each line
                 lineNumber += 1
                 if expressionSearch in line:
+                    # If the expression is found, append
                     results.append((lineNumber, line.rstrip())) # rstrip() removes trailing characters
         return results
     expressionsFound = expression_search(txtFileName, expressionSearch)

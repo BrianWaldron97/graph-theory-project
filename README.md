@@ -17,6 +17,11 @@ The repository includes a .gitignore file, a README file, a text file containing
 7. You will then be prompted to enter an expression
 8. If the expression was found, the number of them found will be displayed along with the line they were found in and the full lines they were in also
 
+#### Valid Output
+![alt text](https://github.com/BrianWaldron97/graph-theory-project/blob/main/images/outputValid.PNG?raw=true)
+
+#### Invalid Output
+![alt text](https://github.com/BrianWaldron97/graph-theory-project/blob/main/images/outputInvalid.PNG?raw=true)
 
 ## Research
 * https://docs.python.org/3/tutorial/inputoutput.html

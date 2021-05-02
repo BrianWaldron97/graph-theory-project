@@ -23,6 +23,17 @@ The repository includes a .gitignore file, a README file, a text file containing
 #### Invalid Output
 ![alt text](https://github.com/BrianWaldron97/graph-theory-project/blob/main/images/outputInvalid.PNG?raw=true)
 
+- - - -
+
+### What is a regular expression?
+A regular expression, also known as a regex, is a string of characters. This string of characters helps to “match” text when searching for patterns. The pattern can be something very simple or something complex. Something simple may include just one character. Certain characters have their own function, such as the '*' character. If the expression was "a*" for example, that would mean any number of a's in the pattern. There are many other characters with uses like this.
+
+### How do regular expressions differ across implementation?
+Regular expressions are implemented by compiling them into NFAs (nondeterministic finite automata). These NFAs are composed of different states of which they can transition between. Each transition may lead to any number of states.
+
+### Can all formal languages be encoded as regular expressions?
+All formal languages are capable of being encoded as regular expressions. 
+
 ## Research
 * https://docs.python.org/3/tutorial/inputoutput.html
   * Helped with understanding file input and output
@@ -36,3 +47,5 @@ The repository includes a .gitignore file, a README file, a text file containing
   * Very useful for understanding regular expressions
 * https://en.wikipedia.org/wiki/Regular_expression 
   * Helped in understanding regular expressions
+* https://www.quora.com/How-are-regular-expressions-implemented
+  * Implementation of regular expressions

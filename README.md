@@ -34,3 +34,5 @@ The repository includes a .gitignore file, a README file, a text file containing
   * Helped with understanding and visualizing regular expression matching
 * https://www.youtube.com/watch?v=sa-TUpSx1JA
   * Very useful for understanding regular expressions
+* https://en.wikipedia.org/wiki/Regular_expression 
+  * Helped in understanding regular expressions

@@ -32,7 +32,8 @@ A regular expression, also known as a regex, is a string of characters. This str
 Regular expressions are implemented by compiling them into NFAs (nondeterministic finite automata). These NFAs are composed of different states of which they can transition between. Each transition may lead to any number of states.
 
 ### Can all formal languages be encoded as regular expressions?
-All formal languages are capable of being encoded as regular expressions. 
+Formal languages are mathematical constructions. They are not just used for programming languages but also many other things. One such use is in linguistics to describe the syntax of natural languages eg: English. For the case of English and Python, formal languages are a helpful system for describing both as they both have a similar structured format.
+Formal languages can be seen as manipulators of symbols. For exmaple, the equation a + b + c = d has no real inherit meaning but it is possible to manipulate the symbols using the rules of algebra, eg: a + b = d - c, without knowing what the symbols even mean. Giving meaning to the symbols wihin system is known as semantics. If we interpreted the symbols a, b and c as currency, then the equation has meaning.
 
 ## Research
 * https://docs.python.org/3/tutorial/inputoutput.html
@@ -49,3 +50,5 @@ All formal languages are capable of being encoded as regular expressions.
   * Helped in understanding regular expressions
 * https://www.quora.com/How-are-regular-expressions-implemented
   * Implementation of regular expressions
+* https://cs.stackexchange.com/questions/30639/what-is-the-relationship-between-programming-languages-regular-expressions-and#:~:text=In%20a%20nutshell&text=Regular%20expression%20and%20other%20formalisms,sentences%20in%20a%20structured%20way.
+  * Information thread on the relationship between programming languages, formal languages and regular expressions
